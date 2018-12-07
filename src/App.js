@@ -8,13 +8,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Aboutme />
-          <Router>
-            <Switch>
-              <Route> </Route>
-              <Route> </Route>
-            </Switch>
-          </Router>
+        <Router>
+          <Switch>
+            <Route path="/" exact component={Aboutme}/>
+            <Route path="/experience" component={Workexperience}/>
+          </Switch>
+        </Router>
       </div>
     );
   }

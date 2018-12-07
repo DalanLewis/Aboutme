@@ -1,4 +1,5 @@
-import React, { Component, Fragment } from 'react';</div>
+import React, { Component } from 'react'
+import {SiteNav} from './SiteNav';
 
 
 class experience extends Component {
@@ -48,7 +49,7 @@ class experience extends Component {
             <nav>      
                 <ul>
                     <li>
-                        <a href="file:///Users/dalanlewis/Desktop/School%20Stuff/About%20me.html">About Me!</a>
+                        <SiteNav/>
                     </li>
                 </ul>
             </nav>

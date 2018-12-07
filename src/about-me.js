@@ -1,4 +1,5 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react'
+import {SiteNav1} from './SiteNav'
 
 
 class aboutme extends Component {
@@ -11,7 +12,7 @@ class aboutme extends Component {
         </h1>
             </header>
             <article>
-                <img src="img/Marvin.png" alt="MarVln" />
+                <img src="Marvin.png" alt="MarVln" />
                 <h2>
                     Bio
                 </h2>
@@ -37,9 +38,7 @@ class aboutme extends Component {
             </article>
             <nav>
                 <ul>
-                    <li><a href="file:///Users/dalanlewis/Desktop/School%20Stuff/work%20experience.html">Work Experience</a></li>
-                    <li><a href="https://github.com/MarVlnMartian">Github</a></li>
-                    <li><a href="https://www.linkedin.com/in/dalan-lewis-58a711174">linkedin.com</a></li>
+                    <SiteNav1/>
                 </ul>
             </nav>
             <h5>
