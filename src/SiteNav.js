@@ -26,3 +26,15 @@ class SiteNav1 extends Component {
 }
 
 export { SiteNav1 }
+
+class SiteNav2 extends Component {
+    render = () => {
+        return (
+            <Fragment>
+                <Link to="/projects" alt="project-page">Projects</Link>
+            </Fragment>
+        )
+    }
+}
+
+export { SiteNav2 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { SiteNav } from './SiteNav'
+import {SiteNav2} from './SiteNav'
 import WorkExperienceItem from './WorkExperienceItem'
 
 
@@ -34,11 +35,8 @@ class experience extends Component {
                 </article>
                 <footer>
                     <nav>
-                        <ul>
-                            <li>
-                                <SiteNav />
-                            </li>
-                        </ul>
+                                <SiteNav /><br/>
+                                <SiteNav2 />
                     </nav>
                 </footer>
             </div>

@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import {SiteNav1} from './SiteNav'
+import {SiteNav2} from './SiteNav'
+
 
 
 class aboutme extends Component {
@@ -39,6 +41,7 @@ class aboutme extends Component {
             <nav>
                 <ul>
                     <SiteNav1/>
+                    <SiteNav2/>
                 </ul>
             </nav>
             <h5>
